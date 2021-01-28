@@ -7,9 +7,11 @@ function product(a, b) {
   return a * b
 }
 
-const product2 = (a, b) => a * b
+const product2 = (a, b) => 
+  a * b
 
 const product3 = (a, b) => {
+  console.log('')
   return (a * b)
 }
 
